@@ -46,8 +46,8 @@ onFormSubmit(event) {
   }
 }
 
-function mapDispachToProps(dispach) {
-  return bindActionCreators({ fetchWeather }, dispach);
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators({ fetchWeather }, dispatch);
 }
 
-export default connect(null, mapDispachToProps)(SearchBar);
+export default connect(null, mapDispatchToProps)(SearchBar);
