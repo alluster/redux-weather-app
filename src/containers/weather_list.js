@@ -27,10 +27,10 @@ class WeatherList extends Component {
       <table className="table table-hover">
         <thead>
           <tr>
-            <th>City</th>
-            <th>Temperature</th>
-            <th>Preasure</th>
-            <th>Humidity</th>
+            <th>Kaupunki</th>
+            <th>Lämpötila (Celcius)</th>
+            <th>Ilmanpaine (Pascal)</th>
+            <th>Ilmankosteus (%)</th>
           </tr>
         </thead>
         <tbody>
